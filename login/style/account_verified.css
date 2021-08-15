@@ -1,0 +1,38 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+body
+{
+    width: 100%;
+    height: 100%;
+}
+img
+{
+    width: 20vh;
+    left: 50%;
+    margin-top: 6vh;
+    position: absolute;
+    transform: translate(-50%, 0);
+}
+h1
+{
+    width: 100%;
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 30vh;
+    color: rgb(5, 155, 5);
+}
+a
+{
+    margin-top: 1vh;
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 19vh;
+    height: 4vh;
+    border-radius: 10vh;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3.2vh;
+    border: solid 0.1vw;
+    left: 50%;
+    color: white;
+    background-color: blue;
+}

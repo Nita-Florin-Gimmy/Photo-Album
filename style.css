@@ -1,0 +1,447 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+header
+{
+    width: 100%;
+    padding-top: 5.3%;
+    height: 0%;
+	background-color: #990000;
+	border-bottom: solid 0.2vw;
+    position: relative;
+}
+.links
+{
+    float: right;
+    margin-top: -6vw;
+    margin-right: 2.4%;
+    width: 16.5%;
+    padding-top: 4.3vw;
+    position: relative;
+}
+.links a:visited
+{
+    color: #33ff99;
+}
+.links a
+{
+    font-size: 1.9vw;
+    color: white;
+    font-family: impact;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+}
+.links a:visited
+{
+	color: white;
+}
+.login
+{
+    float: left; 
+    position: absolute;
+    margin-top: -3vw;
+    margin-left: 45%;  
+}
+.login i
+{
+    float: right;
+    padding-top: 5%;
+    padding-left: 10%;
+    position: absolute;
+}
+.login:hover
+{
+    text-shadow: 0.1vw 0.1vw black;
+}
+.log_out
+{
+    float: left; 
+    position: absolute;
+    margin-top: -3vw;
+    margin-left: 45%;
+}
+.log_out i
+{
+    float: right;
+    padding-top: 5%;
+    padding-left: 10%;
+    position: absolute; 
+}
+.log-out:hover
+{
+    text-shadow: 0.1vw 0.1vw black;
+}
+#profile
+{
+    width: 4.4vw;
+    height: 100%;
+    position: absolute; 
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: -4.2vw;
+}
+#profile img
+{
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    border-radius: 100%;
+    object-fit: contain;
+    display: block;
+}
+header h1
+{
+    margin-top: -4.5%;
+    color: #ff884d;
+    font-family: cursive;
+    font-size: 2.5vw;
+    text-shadow: 0.1vw 0.1vw black; 
+    text-align: center;
+}
+#wrapper
+{
+    width: 90%;
+	max-width: 1600px;
+    margin: auto;
+    margin-top: 20px;
+}
+#frame 
+{
+	width: 23.8%;
+	padding-top: 17%;
+    height: 0%;
+	float: left; 
+	margin-left: 1%;
+	margin-top: 4%;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+    position: relative;
+}
+#frame .picture
+{
+	width: 96.5%;
+    margin-top: -70%;
+	height: 0%;
+    padding-top: 53%;
+	float: left;
+	margin-left: 1.65%;
+	background-color: white;
+    cursor: pointer;
+    position: absolute;
+}
+#frame #picture_a
+{
+    border: solid 2px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-top: -52%;
+    width: 100%;
+    height: 14.5vw;
+}
+#frame .picture img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    position: absolute;
+    margin-top: -55.1%;
+}
+#delete_photo
+{
+    position: absolute;
+    margin-top: -70.2%;
+    margin-left: 75%;
+    font-size: 1.5vw;
+    border-radius: 0% 0% 20% 20%;
+    background-color: red;
+    color: white;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+}
+#details
+{
+    width: 96.5%;
+    height: 5.5%;
+    padding-top: 10%;
+    float: left;
+    margin-top: -16%;
+    margin-left: 1.7%;
+    position: absolute;
+    border: solid 0.1vw grey;
+    border-left: none;
+    border-right: none;
+}
+.reactions
+{
+    float: left;
+    width: 40%;
+    height: 100%; 
+    margin-top: -10.4%;
+    padding-top: 10%;
+}
+#default
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    width: 9%;
+    height: 10%;
+    margin-left: 3%;
+    margin-top: -7.4%;
+    padding-top: 8%;
+    position: absolute;
+    background-color: transparent;
+}
+.far
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    background-color: transparent;
+    border: solid 1px;
+    font-size: 1.8vw;
+    color: blue;
+    margin-top: -7.4%;
+    margin-left: 7%;
+}
+#clicked
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    width: 9%;
+    height: 10%;
+    margin-left: 3%;
+    margin-top: -7.4%;
+    padding-top: 8%;
+    position: absolute;
+    background-color: transparent;
+    display: none;
+}
+.fas
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    background-color: transparent;
+    border: solid 1px;
+    font-size: 1.8vw;
+    color: red;
+    margin-top: -7.4%;
+    margin-left: 7%;
+    display: none;
+}
+.reactions p
+{
+    margin-left: 14%; 
+    margin-top: -5%;
+    font-size: 1vw;
+    position: absolute;
+    color: red;
+}
+.date
+{
+    float: right;
+    width: 40%;
+    height: 100%;
+    margin-top: -10.4%;
+    padding-top: 10%;
+}
+.date p
+{
+    float: left;
+    margin-top: -1%;
+    font-size: 0.8vw;
+    color: #666666;
+    margin-left: 20%;
+    position: absolute;
+}
+@media only screen and (max-width: 1100px) 
+{
+    #frame 
+    {
+        width: 32.3%;
+        padding-top: 22%;
+    }
+    #frame .picture
+    {
+        width: 97%;
+        margin-top: -67%;
+        padding-top: 50%;
+        margin-left: 1.5%;
+    }
+    #frame .picture img
+    {
+        margin-top: -51.8%;
+    }
+    #delete_photo
+    {
+        margin-top: -67.3%;
+        margin-left: 75%;
+        font-size: 1.7vw;
+        width: 25%;
+    }  
+    .far
+    {
+        font-size: 2.5vw;
+    }
+    .fas
+    {
+        font-size: 2.5vw;
+    }
+    .reactions p
+    {
+        font-size: 1.3vw;
+    }
+    .date p
+    {
+        font-size: 1.1vw;
+    }
+}
+@media only screen and (max-width: 870px) 
+{
+    #frame 
+    {
+        width: 49%;
+        padding-top: 33.3%;
+    }
+    #frame .picture
+    {
+        width: 97.5%;
+        margin-left: 1.3%;
+    }
+    #frame .picture img
+    {
+        margin-top: -51.4%;
+    }
+    #delete_photo
+    {
+        margin-top: -67.2%;
+        margin-left: 75%;
+        font-size: 2.5vw;
+        width: 25%;
+    }
+    .far
+    {
+        font-size: 3.8vw;
+    }
+    .fas
+    {
+        font-size: 3.8vw;
+    }
+    .reactions p
+    {
+        font-size: 2vw;
+    }
+    .date p
+    {
+        font-size: 1.7vw;
+    }
+}
+@media only screen and (max-width: 700px) 
+{
+    #frame 
+    {
+        width: 100%;
+        padding-top: 70%;
+        margin-left: 0px;
+        height: 0%;
+    }
+    #frame .picture
+    {
+        width: 97.7%;
+        padding-top: 50%;
+        height: 0%;
+        margin-top: -69%;
+        margin-left: 1.1%;
+    }
+    #frame .picture img
+    {
+        margin-top: -51.4%;
+    }
+    #delete_photo
+    {
+        margin-top: -69.2%;
+        margin-left: 75%;
+        font-size: 4.5vw;
+        width: 25%;
+    }
+    #details
+    {
+        width: 97.7%;
+        height: 10%;
+        margin-top: -18.4%;
+        padding-top: 10%;
+        margin-left: 1.2%;
+    }
+    .reactions
+    {
+        width: 40%;
+        height: 100%;
+        padding-top: 10%;
+        margin-top: -10.4%;
+    }
+    #default
+    {
+        width: 12%;
+        height: 10%;
+        margin-left: 5%;
+        margin-top: -7%;
+        padding-top: 11%;
+    }
+    .far
+    {
+        font-size: 10vw;
+        margin-top: -7.5%;
+        margin-left: 10.8%;;
+    }
+    #clicked
+    {
+        width: 12%;
+        height: 10%;
+        margin-left: 5%;
+        margin-top: -7%;
+        padding-top: 11%;
+    }
+    .fas
+    {
+        font-size: 10vw;
+        margin-top: -7.5%;
+        margin-left: 10.8%;;
+    }
+    .reactions p
+    {
+        margin-left: 20%; 
+        margin-top: -4.5%;
+        font-size: 5vw;
+    }
+    .date
+    {
+        width: 40%;
+        padding-top: 10%;
+        margin-top: -10.4%;
+    }
+    .date p
+    {
+        margin-top: 2%;
+        font-size: 3vw;
+        margin-left: 20%;
+    }  
+}

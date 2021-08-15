@@ -1,0 +1,698 @@
+body
+{
+    max-width: 100%;
+    height: 100%;
+}
+#left
+{
+    float: left;
+    border-right: solid 0.1vw;
+    width: 21%;
+    height: 100vh;
+    position: relative;
+}
+#crate
+{
+	width: 100%;
+	height: 0%;
+	padding-top: 45vw;
+	position: relative;
+	margin-top: 0%;
+    border-radius: 2vw;
+    background-color: white;
+}
+#logo
+{
+    width: 10vw;
+    padding-top: 8vw;
+    margin-left: 25.5%;
+    border: solid 0.1vw grey;
+    position: absolute;
+    margin-top: -45vw;
+    border-radius:  0vh 0vh 3vh 3vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+#picture
+{
+    width: 93%;
+    border: solid 0.1vw;
+    position: absolute;
+    margin-left: 0.5%;
+    margin-top: -93%;
+    padding-top: 6vw;
+    background-color: white;
+}
+#picture img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    position: absolute;
+    margin-top: -64.5%;
+}
+#edit
+{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 3.8vw;
+    height: 0.3vw;
+    padding-bottom: 1vw;
+    margin-top: -1.5vw;
+    border: none;
+    border: solid 0.1vw;
+    cursor: pointer;
+    border-radius: 2vw;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin-left: -1.9vw;
+    font-size: 1vw;
+}
+#about
+{
+    width: 97%;
+    margin-left: -1%;
+    border: solid 0.1vh grey;
+    position: absolute;
+    margin-top: -28vw;
+    padding-top: 4vw;   
+    background-color: white;
+}
+#about textarea
+{
+    position: absolute;
+    width: 75%;
+    resize: none;
+    height: 0;
+    height: 76.5%;
+    margin-top: -3.8vw;
+    font-family: Optima;
+    font-size: 0.8vw;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding-left: 2%;
+}
+#save
+{
+    position: absolute;
+    width: 4vw;
+    height: 1.5vw;
+    margin-left: 80%;
+    margin-top: -6.5%;
+    cursor: pointer;
+    font-size: 1vw;
+    background-color: green;
+    color: white;
+    border: solid 0.1vw;
+}
+#username
+{
+    width: 20vw;
+    margin-left: 0;
+    position: absolute;
+    margin-top: -35vw;
+    padding-top: 4vw;   
+    text-align: center;
+}
+#username h4
+{
+    font-size: 1.1vw;
+    margin-top: -20%;
+}
+#username a
+{
+    font-size: 1.1vw;  
+    text-decoration: none;
+    color: green;
+}
+#email
+{
+    width: 19vw;
+    padding-top: 1vw;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: -20vw;    
+}
+#email h4
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1vw;  
+}
+#email p
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 1vw;  
+    margin-left: 3%;
+}
+#email a
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 1vw; 
+    margin-left: 4%;
+    text-decoration: none;
+    color: green;
+
+}
+#password
+{
+    width: 19vw;
+    padding-top: 1vw;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: -14vw; 
+}
+#password h4
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1vw;  
+
+}
+#password p
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2vw;  
+    margin-left: 3%;
+    padding-top: 0.2vw;
+}
+#password a
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 1vw; 
+    margin-left: 4%;
+    text-decoration: none;
+    color: green;
+}
+#right
+{
+    float: right;
+    border-left: solid 0.1vw;
+    width: 78%;
+    height: 100vh;
+}
+#likes
+{
+    border: solid 0.1vw;
+    float: left;
+    width: 25%;
+    padding-top: 8%;
+    margin-top: 20vh;
+    margin-left: 6%;
+    position: relative;
+}
+#likes i
+{
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    padding-top: 6%;
+    padding-bottom: 5.5%;
+    font-size: 4vw;
+    padding-left: 1.9vw;
+    margin-top: -32%;
+    position: absolute;
+    color: red;
+    background-color: orange;
+    border-right: solid 0.1vw black;
+}
+#likes h1
+{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 58%;
+    font-size: 2vw;
+}
+#likes p
+{
+    position: absolute;
+    margin-top: -15%;
+    font-size: 1.5vw;
+    margin-left: 40%;
+    text-align: center;
+    width: 60%;
+}
+#comments
+{
+    border: solid 0.1vw;
+    float: left;
+    width: 25%;
+    padding-top: 8%;
+    margin-top: 20vh;
+    margin-left: 5%;
+    position: relative;
+}
+#comments i
+{
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    padding-top: 6%;
+    padding-bottom: 5.5%;
+    font-size: 4vw;
+    padding-left: 1.9vw;
+    margin-top: -32%;
+    position: absolute;
+    color: grey;
+    background-color: orange;
+    border-right: solid 0.1vw black;
+}
+#comments h1
+{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 47%;
+    font-size: 2vw;
+}
+#comments p
+{
+    position: absolute;
+    margin-top: -15%;
+    font-size: 1.5vw;
+    margin-left: 40%;
+    text-align: center;
+    width: 60%;
+}
+#users
+{
+    border: solid 0.1vw;
+    float: left;
+    width: 25%;
+    padding-top: 8%;
+    margin-top: 20vh;
+    margin-left: 5%;
+    position: relative;
+}
+#users i
+{
+    padding: 0;
+    margin: 0;
+    width: 32%;
+    padding-top: 6%;
+    padding-bottom: 5.5%;
+    font-size: 4vw;
+    padding-left: 1.5vw;
+    margin-top: -32%;
+    position: absolute;
+    color: blue;
+    background-color: orange;
+    border-right: solid 0.1vw black;
+}
+#users h1
+{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 58%;
+    font-size: 2vw;
+}
+#users p
+{
+    position: absolute;
+    margin-top: -15%;
+    font-size: 1.5vw;
+    margin-left: 40%;
+    text-align: center;
+    width: 60%;
+}
+#online_users
+{
+    border: solid 0.1vw;
+    float: left;
+    width: 86.4%;
+    padding-top: 8%;
+    margin-top: 5vh;
+    margin-left: 5.9%;
+    position: relative;
+}
+#guest
+{
+    float: left;
+    width: 50%;
+    padding-top: 10%;
+    margin-top: -9.3%;
+    background-color: rgb(179, 170, 170);
+}
+#guest h1
+{
+    position: absolute;
+    margin-top: -8.5%;
+    font-size: 2vw;
+    margin-left: 16%;
+}
+#guest p
+{
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: -10%;
+}
+#admin
+{
+    float: right;
+    width: 50%;
+    padding-top: 10%;
+    margin-top: -9.3%;
+    background-color: rgba(252, 34, 34, 0.849);
+}
+#admin h1
+{
+    position: absolute;
+    margin-top: -8.5%;
+    font-size: 2vw;
+    margin-left: 16%;
+}
+#admin p
+{
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: -10%;
+}
+#search
+{
+    border: solid 0.1vw;
+    float: right;
+    margin-right: 7.5%;
+    width: 42%;
+    padding-top: 6.5%;
+    margin-top: 6vh;
+    border-radius: 0vw 0vw 1vw 1vw;
+    background-color: rgb(14, 14, 151);
+}
+#search input[type=text]
+{
+    width: 75%;
+    padding: 0;
+    left: 0;
+    padding-top: 2.5%;
+    padding-right: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    float: left;
+    margin-top: -15.2%;
+    margin-left: 0.7%;
+    font-size: 1.5vw;
+    border: none;
+    outline: none;
+    border-bottom: solid 0.1vw;
+}
+#search button
+{
+    float: right;  
+    width: 17%;
+    padding-top: 1.5%;
+    padding-bottom: 1.2%;
+    margin-top: -15.2%;
+    margin-right: 0.5%;
+    cursor: pointer;
+    font-size: 2.1vw;
+    border: none;
+    background-color: rgb(46, 212, 46);
+    border-bottom: solid 0.1vw;
+}
+#search_change
+{
+    float: left;
+    width: 98.5%;
+    height: 0;
+    padding-top: 1.15vw;
+    margin-top: -1.3vw;
+    margin-left: 0.8%;
+    border-radius: 0vw 0vw 1vw 1vw;
+    background-color: white;
+    cursor: pointer;
+}
+#search_change i
+{
+    float: left;
+    text-align: center;
+    width: 99%;
+    height: 0;
+    padding: 0;
+    font-size: 2vw;
+    margin-top: -5%;
+}
+#search_left_arrow
+{
+    display: none;
+}
+#upload
+{
+    border: solid 0.1vw;
+    float: left;
+    margin-left: 5.8%;
+    width: 40%;
+    padding-top: 4.7%;
+    margin-top: 6vh;
+}
+#upload a
+{
+    float: left;
+    width: 100%;
+    padding-top: 2.3%;
+    padding-bottom: 2.3%;
+    margin-top: -12%;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(46, 212, 46);
+}
+#edit_account
+{
+    display: none;
+}
+@media only screen and (max-width: 700px) 
+{
+    #left
+    {
+        display: none;
+    }
+    #right
+    {
+        float: left;
+        border: none;
+        width: 100%;
+        height: 100%;
+        margin-top: 10%;
+    }
+    #edit_account
+    {
+        border: solid 0.1vw;
+        float: left;
+        margin-left: 5.8%;
+        width: 40%;
+        padding-top: 7.7%;
+        margin-top: 3vh;
+        display: block;
+    }
+    #edit_account a
+    {
+        float: left;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: rgb(46, 212, 46);
+        padding-top: 5%;
+        padding-bottom: 4%;
+        margin-top: -19.5%;
+        font-size: 3.5vw;
+    }
+    #likes
+    {
+        width: 85%;
+        padding-top: 15%;
+        margin-top: 1vh;
+        margin-left: 6%;
+    }
+    #likes i
+    {
+        width: 27%;
+        padding-top: 1.7%;
+        padding-bottom: 1.6%;
+        font-size: 12vw;
+        padding-left: 10vw;
+        margin-top: -17.7%;
+    }
+    #likes h1
+    {
+        margin-top: -16%;
+        margin-left: 64%;
+        font-size: 4.5vw;
+    }
+    #likes p
+    {
+        margin-top: -8%;
+        font-size: 3vw;
+        margin-left: 40%;
+        width: 60%;
+    }
+    #comments
+    {
+        width: 85%;
+        padding-top: 15%;
+        margin-top: 2vh;
+        margin-left: 6%;
+    }
+    #comments i
+    {
+        width: 27%;
+        padding-top: 1.7%;
+        padding-bottom: 1.6%;
+        font-size: 12vw;
+        padding-left: 10vw;
+        margin-top: -17.7%;
+    }
+    #comments h1
+    {
+        margin-top: -16%;
+        margin-left: 58%;
+        font-size: 4.5vw;
+    }
+    #comments p
+    {
+        margin-top: -8%;
+        font-size: 3vw;
+        margin-left: 40%;
+        width: 60%;
+    }
+    #users
+    {
+        width: 85%;
+        padding-top: 15%;
+        margin-top: 2vh;
+        margin-left: 6%;
+    }
+    #users i
+    {
+        width: 28%;
+        padding-top: 1.7%;
+        padding-bottom: 1.6%;
+        font-size: 12vw;
+        padding-left: 9vw;
+        margin-top: -17.7%;
+    }
+    #users h1
+    {
+        margin-top: -16%;
+        margin-left: 64%;
+        font-size: 4.5vw;
+    }
+    #users p
+    {
+        margin-top: -8%;
+        font-size: 3vw;
+        margin-left: 40%;
+        width: 60%;
+    }
+    #online_users
+    {
+        padding-top: 15%;
+        margin-top: 2vh;
+    }
+    #guest
+    {
+        padding-top: 20%;
+        margin-top: -17.5%;
+    }
+    #guest h1
+    {
+        margin-top: -17.5%;
+        font-size: 4vw;
+        margin-left: 13%;
+    }
+    #guest p
+    {
+        font-size: 3.5vw;
+        margin-top: -19%;
+    }
+    #admin
+    {
+        padding-top: 20%;
+        margin-top: -17.5%;
+    }
+    #admin h1
+    {
+        margin-top: -17.5%;
+        font-size: 4vw;
+        margin-left: 11%;
+    }
+    #admin p
+    {
+        font-size: 3.5vw;
+        margin-top: -19%;
+    }
+    #search
+    {
+        border: solid 0.1vw;
+        float: right;
+        margin-right: 7.7%;
+        width: 40.3%;
+        padding-top: 8%;
+        margin-top: 3.8vh;
+        border-radius: 0vw 0vw 1vw 1vw;
+        background-color: rgb(14, 14, 151);
+    }
+    #search input[type=text]
+    {
+        width: 75%;
+        padding: 0;
+        left: 0;
+        padding-top: 3.2%;
+        padding-right: 3%;
+        padding-bottom: 3.1%;
+        padding-left: 3%;
+        float: left;
+        margin-top: -19.2%;
+        margin-left: 0.7%;
+        font-size: 2vw;
+        border: none;
+        outline: none;
+        border-bottom: solid 0.1vw;
+    }
+    #search button
+    {
+        width: 17%;
+        padding-top: 3.2%;
+        padding-bottom: 2.9%;
+        margin-top: -19.2%;
+        font-size: 2.1vw;
+    }
+    #search_change
+    {
+        padding-top: 2vw;
+        margin-top: -2.3vw;
+    }
+    #search_change i
+    {
+        font-size: 3vw;
+        margin-top: -6.3%;
+    }
+    #upload
+    {
+        padding-top: 7.7%;
+        margin-top: 3vh;
+    }
+    #upload a
+    {
+        padding-top: 5%;
+        padding-bottom: 4%;
+        margin-top: -19.5%;
+        font-size: 3.5vw;
+    }
+}

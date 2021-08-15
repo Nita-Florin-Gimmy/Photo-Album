@@ -1,0 +1,138 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+header
+{
+    width: 100%;
+    padding-top: 5.3%;
+    height: 0%;
+	background-color: #990000;
+	border-bottom: solid 0.2vw;
+    position: relative;
+}
+#wrapper
+{
+    width: 100%;
+	height: 100%;
+    margin: 0 auto;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    position: relative;   
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#frame 
+{
+	width: 50%;
+	padding-top: 28.5%;
+    height: 0%;
+	float: left; 
+	margin-left: 1%;
+	margin-top: -5%;
+	background-color: rgb(129, 92, 92);
+	border-radius: 10px;
+    position: relative;
+}
+#frame .picture
+{
+	width: 96.5%;
+    margin-top: -55%;
+	height: 0%;
+    padding-top: 53%;
+	float: left;
+	margin-left: 1.65%;
+	background-color: white;
+    cursor: pointer;
+    position: absolute;
+}
+#frame .picture img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    position: absolute;
+    margin-top: -55%;
+}
+label img
+{
+	height: 100%;
+	max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	cursor: pointer;
+    border: solid 1px;
+}
+#submit
+{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 24%;
+    width: 50%;
+    height: 11%;
+    font-size: 1.5vw;
+    background-color: rgb(13, 202, 13);
+    border: solid 0.1vw;
+    border-radius: 10%;
+    cursor: pointer;
+}
+#cancel
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 24%;
+    width: 49.6%;
+    height: 8.5%;
+    padding-top: 1%;
+    font-size: 1.5vw;
+    background-color: rgb(179, 176, 176);
+    border: solid 0.1vw;
+    border-radius: 10%;
+    cursor: pointer;   
+    text-align: center;
+}
+@media only screen and (max-width: 700px) 
+{
+    #frame 
+    {
+        width: 100%;
+        padding-top: 60%;
+        margin-left: 0px;
+        height: 0%;
+    }
+    #frame .picture
+    {
+        width: 97.7%;
+        padding-top: 56%;
+        height: 0%;
+        margin-top: -58%;
+        margin-left: 1.1%;
+    }
+    #frame .picture img
+    {
+        margin-top: -57.3%;
+    }
+    #submit
+    {
+        font-size: 3vw;
+    }  
+    #cancel
+    {
+        font-size: 3vw;
+    }  
+}

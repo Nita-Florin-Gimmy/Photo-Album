@@ -1,0 +1,769 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+body
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#crate
+{
+    width: 69.5%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home
+{
+    position: fixed;
+    cursor: pointer;
+    color: black;
+    top: 0;
+    left: 0;
+}
+.home i
+{
+    font-size: 6vh;;
+}
+#comment_section
+{
+    overflow-y: scroll;
+    float: right;
+    width: 30%;
+    height: 100%;
+    position: relative;
+    background-color: white;
+}
+#admin_other 
+{
+    float: left;
+    border: solid 0.2vh grey;  
+    width: 85%;  
+    max-width: 85%; 
+    margin-top: 5%;
+    margin-left: 1%;
+    border-top: solid 2.5vw grey;
+    border-radius: 2vw 2vw 1vw 1vw;
+    border-collapse: collapse;
+}
+#admin_other button
+{
+    margin: 0;
+    margin-top: -2.5vw;
+    margin-left: 71%;
+    padding: 0;
+    height: 2.4vw;
+    width: 2.4vw;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute; 
+}
+#admin_other i
+{
+    font-size: 2.4vw;
+    position: absolute; 
+    margin-top: -2.5vw;
+    margin-left: 71%;
+}
+#admin_other #dots
+{
+    display: inline-block;
+}
+#admin_other .material-icons
+{
+    display: inline-block;
+}
+#admin_other .fa-close
+{
+    display: none;
+    margin-left: 72%;
+}
+#admin_other p
+{
+    padding-left: 2vw;
+    font-family: Optima;
+    max-width: 85%;
+    word-wrap: break-word;
+    font-size: 1.6vw;
+}
+#admin_other a
+{
+    position: absolute;
+    width: 35%;
+    font-size: 1.3vw;
+    margin-left: 7%;
+    margin-top: calc(-1.5vw - 0.5em);
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    white-space: nowrap;
+    text-decoration: none;
+    padding-bottom: -0.1vw;
+}
+#sent 
+{
+    float: left;
+    border: solid 0.2vh grey;  
+    width: 85%;  
+    max-width: 85%; 
+    margin-top: 5%;
+    margin-left: 1%;
+    border-top: solid 2.5vw grey;
+    border-radius: 2vw 2vw 1vw 1vw;
+    border-collapse: collapse;
+}
+#options 
+{
+    position: absolute;
+    width: 20%;
+    padding-top: 20%;
+    margin-left: 64.9%;
+    border-radius: 0% 0% 10% 10%;
+    background-color: rgb(240, 239, 239);
+    display: none;
+}
+#options #delete
+{
+    margin-top: -45%;
+    margin-left: 21%;
+    position: absolute;
+    font-size: 1.2vw;
+}
+#options #edit
+{
+    margin-top: -85%;
+    margin-left: 32%;
+    position: absolute;
+    font-size: 1.2vw;
+}
+#sent button
+{
+    margin: 0;
+    margin-top: -2.5vw;
+    margin-left: 73%;
+    padding: 0;
+    height: 2.4vw;
+    width: 2.4vw;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute; 
+}
+#sent i
+{
+    font-size: 2.4vw;
+    position: absolute; 
+    margin-top: -2.5vw;
+    margin-left: 71%;
+}
+#sent #dots
+{
+    display: inline-block;
+}
+#sent .material-icons
+{
+    display: inline-block;
+}
+#sent .fa-close
+{
+    display: none;
+    margin-left: 72%;
+}
+#sent p
+{
+    padding-left: 2vw;
+    font-family: Optima;
+    max-width: 85%;
+    word-wrap: break-word;
+    font-size: 1.6vw;
+}
+#sent a
+{
+    position: absolute;
+    width: 35%;
+    font-size: 1.3vw;
+    margin-left: 7%;
+    margin-top: calc(-1.5vw - 0.5em);
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    white-space: nowrap;
+    text-decoration: none;
+    padding-bottom: -0.1vw;
+}
+#other
+{
+    float: left;
+    border: solid 0.2vh grey;  
+    width: 85%;  
+    max-width: 85%; 
+    margin-top: 5%;
+    margin-left: 1%;
+    border-top: solid 2.5vw grey;
+    border-radius: 2vw 2vw 1vw 1vw;
+    border-collapse: collapse;
+}
+#other p
+{
+    padding-left: 2vw;
+    font-family: Optima;
+    max-width: 85%;
+    word-wrap: break-word;
+    font-size: 1.6vw;
+}
+#other a
+{
+    position: absolute;
+    width: 35%;
+    font-size: 1.3vw;
+    margin-left: 7%;
+    margin-top: calc(-1.5vw - 0.5em);
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    white-space: nowrap;
+    text-decoration: none;
+    padding-bottom: -0.1vw;
+}
+.comment
+{
+    max-width: 23%;
+    width: 23%;
+    max-height: 15%;
+    min-height: 2.5vw;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+    border-top: solid 0.3vw black;
+    position: fixed;
+    margin-left: 0%;
+    bottom: 0;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    font-size: 3.3vh;
+    background-color: #cccccc;
+    opacity: 80%;
+    margin-bottom: 0%;
+    border-radius: 1vh 1vh 0vh 0vh;
+}
+.comment_edit
+{
+    max-width: 23%;
+    width: 23%;
+    max-height: 15%;
+    min-height: 2.5vw;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+    border-bottom: solid 4.3vw black;
+    border-top: solid 0.3vw black;
+    position: fixed;
+    margin-left: 0%;
+    bottom: 0;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    font-size: 3.3vh;
+    background-color: #cccccc;
+    opacity: 80%;
+    margin-bottom: 0%;
+    border-radius: 1vh 1vh 0vh 0vh;
+    display: none;
+}
+#enter
+{
+    position: fixed;
+    background-color: blue;
+    margin-left: 25.5vw;
+    bottom: 0;
+    width: 4vw;
+    height: 4vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 50vh;
+    font-size: 2.5vw;;
+    padding-right: 4vh;
+    color: white;
+    opacity: 80%;
+    margin-bottom: 0.4vh;
+}
+#enter_disabled
+{
+    position: fixed;
+    background-color: blue;
+    margin-left: 25.5vw;
+    bottom: 0;
+    width: 4vw;
+    height: 4vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 50vh;
+    font-size: 2.5vw;;
+    padding-right: 4vh;
+    color: white;
+    opacity: 80%;
+    margin-bottom: 0.4vh;
+}
+.comment::-webkit-scrollbar 
+{
+    display: none;
+}
+.comment:empty::before {
+    content: "Write a comment...";
+    cursor: text;
+}
+.comment_edit::-webkit-scrollbar 
+{
+    display: none;
+}
+.comment_edit:empty::before {
+    content: "Write a comment...";
+    cursor: text;
+}
+#write_section #cancel
+{
+    position: fixed;
+    margin: 0;
+    display: block;
+    bottom: 0;
+    width: 3%;
+    height: 2.5vw;
+    padding: 0;
+    margin-bottom: 0.6%;
+    border-radius: 100%;
+    border: none;
+    background-color: transparent;
+    display: none;
+    color: white;
+    cursor: pointer;
+}
+#write_section #cancel i
+{
+    font-size: 2.5vw;
+}
+#write_section h4
+{
+    position: fixed;
+    margin-left: 0%;
+    bottom: 0;   
+    margin-bottom: 1%;
+    font-size: 1.5vw;
+    margin-left: 9.5%;
+    display: none;
+    color: white;
+}
+.space
+{
+    width: 100%;
+    height: 10%;
+    height: 15%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    clear: both;
+    background-color: transparent;
+}
+#frame 
+{
+	background-color: #f2f2f2;
+	border-radius: 10px;
+    position: relative;
+    width: 100%;
+    padding-top: 70%;
+    height: 0%;
+}
+#frame .picture
+{
+	float: left;
+	background-color: white;
+    position: absolute;
+    width: 97.7%;
+    padding-top: 60%;
+    height: 0%;
+    margin-top: -69%;
+    margin-left: 1.1%;
+}
+#frame .picture img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    position: absolute;
+    margin-top: -61.4%;
+}
+#details
+{
+    float: left;
+    position: absolute;
+    border: solid 0.1vw grey;
+    border-left: none;
+    border-right: none;
+    width: 97.7%;
+    height: 2%;
+    margin-top: -8%;
+    padding-top: 5.5%;
+    margin-left: 1.2%;
+}
+.reactions
+{
+    float: left;
+    width: 40%;
+    height: 100%;
+    padding-top: 10%;
+    margin-top: -5.8%;
+}
+#default
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    width: 6%;
+    height: 10%;
+    margin-left: 3.1%;
+    margin-top: -9%;
+    padding-top: 5%;
+    position: absolute;
+    background-color: transparent;
+}
+.far
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    background-color: transparent;
+    border: solid 1px;
+    font-size: 4vw;
+    color: blue;
+    margin-top: -9.3%;
+    margin-left: 6%;
+}
+#clicked
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    width: 6%;
+    height: 10%;
+    margin-left: 3.1%;
+    margin-top: -9%;
+    padding-top: 5%;
+    position: absolute;
+    background-color: transparent;
+    display: none;
+}
+.fas
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    background-color: transparent;
+    border: solid 1px;
+    font-size: 4vw;
+    color: red;
+    margin-top: -9.3%;
+    margin-left: 6%;
+    display: none;
+}
+.reactions p
+{
+    position: absolute;
+    color: red;
+    margin-left: 11.5%; 
+    margin-top: -7.9%;
+    font-size: 2vw;
+}
+.date
+{
+    float: right;
+    height: 100%;
+    width: 40%;
+    padding-top: 10%;
+    margin-top: -5.8%;
+}
+.date p
+{
+    float: left;
+    color: #666666;
+    position: absolute;
+    margin-top: -5.5%;
+    font-size: 1.5vw;
+    margin-left: 27%;
+}
+@media only screen and (max-width: 700px) 
+{
+    #crate
+    {
+        width: 100%;
+        height: 0%;
+        padding-top: 70%;
+    }
+    #comment_section
+    {
+        width: 100%;
+        height: 100%;
+        margin-top: 1%;
+    } 
+    .comment
+    {
+        max-width: 90%;
+        max-height: 15%;
+        min-height: 4vw;
+        width: 90%;
+        padding-right: 8vw;
+    } 
+    .comment_edit:focus
+    {
+        min-height: 6vw;
+        padding-bottom: 1vw;
+        padding-top: 2.6vw;
+    } 
+    .comment:focus
+    {
+        min-height: 6vw;
+        padding-bottom: 1vw;
+        padding-top: 2.6vw;
+    } 
+    .comment_edit
+    {
+        max-width: 90%;
+        min-height: 4vw;
+        width: 90%;
+        padding-right: 8vw;
+        border-bottom: solid 6.3vw black;
+    } 
+    #write_section #cancel
+    {
+        bottom: 0;
+        width: 5.5%;
+        height: 5vw;
+        padding: 0;
+        margin-bottom: 0.6%;
+    }
+    #write_section #cancel i
+    {
+        font-size: 5vw;
+    }
+    #write_section h4
+    {
+        margin-bottom: 1%;
+        font-size: 3vw;
+        margin-left: 9.5%;
+    }
+    .comment_edit:focus
+    {
+        min-height: 6vw;
+        padding-bottom: 1vw;
+        padding-top: 2.6vw;
+    } 
+    #enter
+    {
+        margin-left: 93vw;
+        width: 4vw;
+        height: 6vw;
+        font-size: 3.5vw;;
+        padding-right: 5vw;
+        margin-bottom: 0.1vh;
+    }
+    #enter_disabled
+    {
+        margin-left: 93vw;
+        width: 4vw;
+        height: 6vw;
+        font-size: 3.5vw;;
+        padding-right: 5vw;
+        margin-bottom: 0.1vh;
+    }
+    #admin_other 
+    {
+        border-top: solid 3vw grey;
+    }
+    #admin_other button
+    {
+        margin-top: -2.9vw;
+        margin-left: 74%;
+        height: 2.9vw;
+        width: 2.9vw;
+    }
+    #admin_other i
+    {
+        font-size: 2.9vw;
+        margin-top: -2.8vw;
+        margin-left: 74%;
+    }
+    #admin_other .fa-close
+    {
+        margin-left: 74.3%;
+        margin-top: -2.85vw;
+    }
+    #admin_other p
+    {
+        font-size: 2vw;
+    }
+    #admin_other a
+    {
+        width: 20%;
+        font-size: 2.2vw;
+        margin-top: calc(-1.7vw - 0.6em);
+    }
+    #sent 
+    {
+        border-top: solid 3vw grey;
+    }
+    #sent button
+    {
+        margin-top: -2.9vw;
+        margin-left: 74%;
+        height: 2.9vw;
+        width: 2.9vw;
+    }
+    #sent i
+    {
+        font-size: 2.9vw;
+        margin-top: -2.8vw;
+        margin-left: 74%;
+    }
+    #sent .fa-close
+    {
+        margin-left: 74.3%;
+        margin-top: -2.85vw;
+    }
+    #sent p
+    {
+        font-size: 2vw;
+    }
+    #sent a
+    {
+        width: 20%;
+        font-size: 2.2vw;
+        margin-top: calc(-1.7vw - 0.6em);
+    }
+    #other
+    {
+        border-top: solid 3vw grey;
+    }
+    #other p
+    {
+        font-size: 2vw;
+    }
+    #other a
+    {
+        width: 20%;
+        font-size: 2.2vw;
+        margin-top: calc(-1.7vw - 0.6em);
+    }
+    #options 
+    {
+        width: 20%;
+        padding-top: 11%;
+        margin-left: 65%;
+    }
+    #options #delete
+    {
+        margin-top: -26%;
+        margin-left: 28%;
+        font-size: 3vw;
+    }
+    #options #edit
+    {
+        margin-top: -49%;
+        margin-left: 37%;
+        font-size: 3vw;
+    }
+    .space
+    {
+        padding-bottom: 65vw;
+        height: 15%;
+    }
+    #frame 
+    {
+        width: 100%;
+        padding-top: 70%;
+        margin-left: 0px;
+        height: 0%;
+        margin-top: -70%;
+    }
+    #frame .picture
+    {
+        width: 97.7%;
+        padding-top: 57%;
+        height: 0%;
+        margin-top: -69%;
+    }
+    #frame .picture img
+    {
+        margin-top: -58.35%;
+    }
+    #details
+    {
+        height: 0%;
+        margin-top: -11%;
+        padding-top: 9.7%;
+    }
+    .reactions
+    {
+        margin-top: -10.1%;
+    }
+    #default
+    {
+        width: 7%;
+        margin-left: 3.1%;
+        margin-top: -8%;
+        padding-top: 6%;
+    }
+    .far
+    {
+        font-size: 6.8vw;
+        margin-top: -8.5%;
+        margin-left: 6.5%;
+    }
+    #clicked
+    {
+        width: 7%;
+        margin-left: 3.1%;
+        margin-top: -8%;
+        padding-top: 6%;
+    }
+    .fas
+    {
+        font-size: 6.8vw;
+        margin-top: -8.5%;
+        margin-left: 6.5%;
+    }
+    .reactions p
+    {
+        margin-left: 12.5%; 
+        margin-top: -6.3%;
+        font-size: 2.7vw;
+    }
+    .date
+    {
+        margin-top: -10.1%;
+    }
+    .date p
+    {
+        margin-top: -3%;
+        font-size: 2.1vw;
+    }
+}

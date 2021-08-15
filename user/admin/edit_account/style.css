@@ -1,0 +1,438 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+body
+{
+    width: 100%;
+    height: 100%;
+}
+header
+{
+    width: 100%;
+    padding-top: 5.3%;
+    height: 0%;
+	background-color: #990000;
+	border-bottom: solid 0.2vw;
+    position: relative;
+}
+#facebook .fa 
+{
+    margin-top: -6.05%;
+    margin-left: 1%;
+    width: 4.6%;
+    height: 68%;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    font-size: 3vw;
+    padding-top: 1%;
+}
+#facebook .fa:hover 
+{
+    border: solid 0.1vw;
+}
+#facebook .fa-facebook 
+{
+    background: #3B5998;
+    color: white;
+}
+.links
+{
+    float: right;
+    margin-top: -3.6%;
+    margin-right: 2.4%;
+    width: 7%;
+    position: relative;
+}
+.links a:visited
+{
+    color: #33ff99;
+}
+.links a
+{
+    font-size: 1.5vw;
+    color: white;
+    font-family: impact;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+}
+.links a:visited
+{
+	color: white;
+}
+.home
+{
+    float: left; 
+    position: absolute;
+}
+.home i
+{
+    float: right;
+    padding-top: 5%;
+    padding-left: 10%;
+    position: absolute;
+}
+.home:hover
+{
+    text-shadow: 0.1vw 0.1vw black;
+}
+header h1
+{
+    margin-top: -4.5%;
+    color: #ff884d;
+    font-family: cursive;
+    font-size: 2.5vw;
+    text-shadow: 0.1vw 0.1vw black; 
+    text-align: center;
+}
+#wrapper
+{
+    width: 100%;
+	height: 100%;
+    margin: 0 auto;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#crate
+{
+	width: 40vw;
+	height: 0%;
+	padding-top: 30vw;
+	border: solid 0.2vw grey;
+	position: relative;
+	margin-top: -8%;
+    border-radius: 2vw;
+    background-color: #f2f2f2;
+}
+#logo
+{
+    width: 10vw;
+    padding-top: 8vw;
+    margin-left: 37.5%;
+    border: solid 0.1vw grey;
+    position: absolute;
+    margin-top: -75%;
+    border-radius:  0vh 0vh 3vh 3vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+#picture
+{
+    width: 93%;
+    border: solid 0.1vw;
+    position: absolute;
+    margin-left: 0.5%;
+    margin-top: -93%;
+    padding-top: 6vw;
+    background-color: white;
+}
+#picture img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    position: absolute;
+    margin-top: -64.5%;
+}
+form
+{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+#file
+{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+label
+{
+    padding: 0;
+    margin: 0;
+    border: none;
+    position: absolute;
+}
+#edit
+{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 3.8vw;
+    height: 0.3vw;
+    padding-bottom: 1vw;
+    margin-top: -1.5vw;
+    border: none;
+    border: solid 0.1vw;
+    cursor: pointer;
+    border-radius: 2vw;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin-left: -1.9vw;
+    font-size: 1vw;
+}
+#about
+{
+    width: 25vw;
+    margin-left: 18%;
+    border: solid 0.1vh grey;
+    position: absolute;
+    margin-top: -37%;
+    padding-top: 4vw;   
+    background-color: white;
+}
+#about #about_write
+{
+    float: left;
+    width: 80%;
+    resize: none;
+    max-height: 4.7vw;
+    height: 0;
+    padding-bottom: 4.7vw;
+    margin-top: -15%;
+    margin-left: 0.5%;
+    font-family: Optima;
+    font-size: 1.2vw;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+#save
+{
+    width: 4vw;
+    height: 1.5vw;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1vw;
+    background-color: green;
+    color: white;
+    border: solid 0.1vw;
+    float: right;
+}
+#username
+{
+    width: 25vw;
+    margin-left: 18%;
+    position: absolute;
+    margin-top: -50%;
+    padding-top: 4vw;   
+}
+#username h4
+{
+    margin-top: -15%;
+    font-size: 1.1vw;
+    position: absolute;
+    margin-left: 27%;
+}
+#username a
+{
+    font-size: 1.1vw;  
+    position: absolute;
+    margin-left: 36%;
+    margin-top: -9%;
+    text-decoration: none;
+    color: green;
+}
+#email
+{
+    width: 30vw;
+    padding-top: 1vw;
+    margin-left: 11%;
+    position: absolute;
+    margin-top: -20%;    
+}
+#email h4
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1vw;  
+
+}
+#email p
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 1vw;  
+    margin-left: 3%;
+}
+#email a
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 1vw; 
+    margin-left: 4%;
+    text-decoration: none;
+    color: green;
+
+}
+#password
+{
+    width: 30vw;
+    padding-top: 1vw;
+    margin-left: 11%;
+    position: absolute;
+    margin-top: -10%; 
+}
+#password h4
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1vw;  
+
+}
+#password p
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2vw;  
+    margin-left: 3%;
+    padding-top: 0.2vw;
+}
+#password a
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 1vw; 
+    margin-left: 4%;
+    text-decoration: none;
+    color: green;
+
+}
+@media only screen and (max-width: 1100px) 
+{
+	#crate
+	{
+		width: 70%;
+		padding-top: 50%;
+	}
+    #logo
+    {
+        width: 15vw;
+        padding-top: 12vw;
+        margin-left: 40%;
+        margin-top: -71.5%;
+    }
+    #picture
+    {
+        margin-left: 0.2%;
+        margin-top: -93%;
+        padding-top: 9vw;
+    }
+    #picture img
+    {
+        margin-top: -64.5%;
+    }
+    #edit
+    {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        width: 6vw;
+        height: 1vw;
+        padding-bottom: 1vw;
+        margin-top: -2.3vw;
+        border: none;
+        border: solid 0.1vw;
+        cursor: pointer;
+        border-radius: 2vw;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        margin-left: -3vw;
+        font-size: 1.6vw;
+    }
+    #username
+    {
+        width: 45vw;
+        margin-left: 18%;
+        margin-top: -48%;
+        padding-top: 7vw;
+    }
+    #username h4
+    {
+        margin-left: 26%;
+        margin-top: -15%;
+        font-size: 2vw;
+    }
+    #username a
+    {
+        font-size: 1.7vw;  
+        margin-left: 37%;
+    }
+    #about
+    {
+        width: 45vw;
+        margin-left: 18%;
+        margin-top: -35%;
+        padding-top: 8.7vw;   
+    }
+    #about #about_write
+    {
+        width: 83%;
+        max-height: 6vw;
+        height: 3vw;
+        margin-top: -18.6%;
+        font-size: 1.5vw;
+    }
+    #save
+    {
+        width: 6vw;
+        height: 2.1vw;
+        margin-left: 83%;
+        margin-top: -4.8%;
+        font-size: 1.6vw;
+    }
+    #email
+    {
+        width: 53vw;
+        padding-top: 2.5vw;
+        margin-left: 11%;   
+    }
+    #email h4
+    {
+        font-size: 2vw;  
+    }
+    #email p
+    {
+        font-size: 1.7vw;  
+        margin-left: 5%;
+    }
+    #email a
+    {
+        font-size: 1.7vw; 
+        margin-left: 4%;
+    
+    }
+    #password
+    {
+        width: 53vw;
+        padding-top: 2.5vw;
+        margin-left: 11%;
+    }
+    #password h4
+    {
+        font-size: 2vw;  
+    
+    }
+    #password p
+    {
+        font-size: 1.7vw;  
+        margin-left: 5%;
+    }
+    #password a
+    {
+        font-size: 1.7vw; 
+        margin-left: 4%;
+    
+    }
+}

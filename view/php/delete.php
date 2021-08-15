@@ -1,0 +1,10 @@
+<?php
+  require '../../php/photos.php';
+  session_start();
+
+    $id = $_POST['id'];
+
+    $sql = "DELETE FROM comments WHERE Id='$id'";
+    $result = mysqli_query($con, $sql);
+
+?>
