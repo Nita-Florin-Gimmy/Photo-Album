@@ -99,6 +99,13 @@
  <br />
 
  # Now you can access the admin panel just by clicking on your logo **(you can find it on the main page)**
+ <br />
+
+## Info: 
+
+ <br />
+
+This website is a kind of photo album. The people can give likes or write comments but they cannot post photos. The people with "moderator' role can delete any comment. The people with "administrator" role have acces to post photos, ban users and delete comments.
 
  <br />
  <br />
