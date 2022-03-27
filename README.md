@@ -110,4 +110,4 @@ This website is a kind of photo album. The people can give likes or write commen
  <br />
  <br />
 
- ### © Nita Florin Gimmy 2021  ***all rights are reserved***.
+ ### © Nita Florin Gimmy 2022  ***all rights are reserved***.
